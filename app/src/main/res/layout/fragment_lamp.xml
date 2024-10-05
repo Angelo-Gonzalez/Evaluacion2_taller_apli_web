@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Lamp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LampFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:background="#0B8E9E"
+        android:src="@mipmap/lampara" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:background="#F4511D"
+        android:gravity="center"
+        android:text="Lamp"
+        android:textColor="#F8EFEF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

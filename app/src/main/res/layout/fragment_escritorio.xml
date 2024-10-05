@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EscritorioFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#0B8E9E"
+        android:src="@mipmap/escritorio" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:background="#F4511D"
+        android:gravity="center"
+        android:text="Desk"
+        android:textColor="#F8EFEF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_desk"
+        android:layout_width="69dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:text="+" />
+</FrameLayout>
